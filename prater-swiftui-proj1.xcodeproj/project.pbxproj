@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C179C9F2585764D00E08533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179C9E2585764D00E08533 /* AppDelegate.swift */; };
+		7C179CA12585764D00E08533 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CA02585764D00E08533 /* ContentView.swift */; };
+		7C179CA32585765100E08533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C179CA22585765100E08533 /* Assets.xcassets */; };
+		7C179CA62585765200E08533 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C179CA52585765200E08533 /* Preview Assets.xcassets */; };
+		7C179CA92585765200E08533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C179CA72585765200E08533 /* Main.storyboard */; };
+		7C179CB12585773800E08533 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDECB2584960000C72CB4 /* TitleView.swift */; };
+		7C179CB82585828900E08533 /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CB72585828900E08533 /* TestButton.swift */; };
+		7C179CBB258582AD00E08533 /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CB72585828900E08533 /* TestButton.swift */; };
 		7CCEDEB62584933D00C72CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDEB52584933D00C72CB4 /* AppDelegate.swift */; };
 		7CCEDEB82584933D00C72CB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDEB72584933D00C72CB4 /* SceneDelegate.swift */; };
 		7CCEDEBA2584933D00C72CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDEB92584933D00C72CB4 /* ContentView.swift */; };
 		7CCEDEBC2584934100C72CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEDEBB2584934100C72CB4 /* Assets.xcassets */; };
 		7CCEDEBF2584934100C72CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEDEBE2584934100C72CB4 /* Preview Assets.xcassets */; };
 		7CCEDEC22584934100C72CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEDEC02584934100C72CB4 /* LaunchScreen.storyboard */; };
+		7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDECB2584960000C72CB4 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C179C9C2585764D00E08533 /* MacProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C179C9E2585764D00E08533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C179CA02585764D00E08533 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C179CA22585765100E08533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C179CA52585765200E08533 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C179CA82585765200E08533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C179CAA2585765200E08533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C179CAB2585765200E08533 /* MacProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacProject.entitlements; sourceTree = "<group>"; };
+		7C179CB72585828900E08533 /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
 		7CCEDEB22584933D00C72CB4 /* prater-swiftui-proj1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prater-swiftui-proj1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCEDEB52584933D00C72CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CCEDEB72584933D00C72CB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,9 +42,17 @@
 		7CCEDEBE2584934100C72CB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CCEDEC12584934100C72CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CCEDEC32584934100C72CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCEDECB2584960000C72CB4 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7C179C992585764D00E08533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CCEDEAF2584933D00C72CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +63,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C179C9D2585764D00E08533 /* MacProject */ = {
+			isa = PBXGroup;
+			children = (
+				7C179C9E2585764D00E08533 /* AppDelegate.swift */,
+				7C179CA02585764D00E08533 /* ContentView.swift */,
+				7C179CA22585765100E08533 /* Assets.xcassets */,
+				7C179CA72585765200E08533 /* Main.storyboard */,
+				7C179CAA2585765200E08533 /* Info.plist */,
+				7C179CAB2585765200E08533 /* MacProject.entitlements */,
+				7C179CA42585765200E08533 /* Preview Content */,
+			);
+			path = MacProject;
+			sourceTree = "<group>";
+		};
+		7C179CA42585765200E08533 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C179CA52585765200E08533 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C179CB4258578B400E08533 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		7CCEDEA92584933D00C72CB4 = {
 			isa = PBXGroup;
 			children = (
+				7C179CB4258578B400E08533 /* Shared */,
 				7CCEDEB42584933D00C72CB4 /* prater-swiftui-proj1 */,
+				7C179C9D2585764D00E08533 /* MacProject */,
 				7CCEDEB32584933D00C72CB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				7CCEDEB22584933D00C72CB4 /* prater-swiftui-proj1.app */,
+				7C179C9C2585764D00E08533 /* MacProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +117,7 @@
 				7CCEDEB52584933D00C72CB4 /* AppDelegate.swift */,
 				7CCEDEB72584933D00C72CB4 /* SceneDelegate.swift */,
 				7CCEDEB92584933D00C72CB4 /* ContentView.swift */,
+				7CCEDECA258495E700C72CB4 /* components */,
 				7CCEDEBB2584934100C72CB4 /* Assets.xcassets */,
 				7CCEDEC02584934100C72CB4 /* LaunchScreen.storyboard */,
 				7CCEDEC32584934100C72CB4 /* Info.plist */,
@@ -75,9 +134,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7CCEDECA258495E700C72CB4 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				7CCEDECB2584960000C72CB4 /* TitleView.swift */,
+				7C179CB72585828900E08533 /* TestButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7C179C9B2585764D00E08533 /* MacProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C179CAE2585765200E08533 /* Build configuration list for PBXNativeTarget "MacProject" */;
+			buildPhases = (
+				7C179C982585764D00E08533 /* Sources */,
+				7C179C992585764D00E08533 /* Frameworks */,
+				7C179C9A2585764D00E08533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacProject;
+			productName = MacProject;
+			productReference = 7C179C9C2585764D00E08533 /* MacProject.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7CCEDEB12584933D00C72CB4 /* prater-swiftui-proj1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CCEDEC62584934100C72CB4 /* Build configuration list for PBXNativeTarget "prater-swiftui-proj1" */;
@@ -104,6 +189,9 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					7C179C9B2585764D00E08533 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					7CCEDEB12584933D00C72CB4 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -123,11 +211,22 @@
 			projectRoot = "";
 			targets = (
 				7CCEDEB12584933D00C72CB4 /* prater-swiftui-proj1 */,
+				7C179C9B2585764D00E08533 /* MacProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7C179C9A2585764D00E08533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C179CA92585765200E08533 /* Main.storyboard in Resources */,
+				7C179CA62585765200E08533 /* Preview Assets.xcassets in Resources */,
+				7C179CA32585765100E08533 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CCEDEB02584933D00C72CB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,19 +240,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7C179C982585764D00E08533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C179CA12585764D00E08533 /* ContentView.swift in Sources */,
+				7C179C9F2585764D00E08533 /* AppDelegate.swift in Sources */,
+				7C179CB12585773800E08533 /* TitleView.swift in Sources */,
+				7C179CBB258582AD00E08533 /* TestButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CCEDEAE2584933D00C72CB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C179CB82585828900E08533 /* TestButton.swift in Sources */,
 				7CCEDEB62584933D00C72CB4 /* AppDelegate.swift in Sources */,
 				7CCEDEB82584933D00C72CB4 /* SceneDelegate.swift in Sources */,
 				7CCEDEBA2584933D00C72CB4 /* ContentView.swift in Sources */,
+				7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7C179CA72585765200E08533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C179CA82585765200E08533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		7CCEDEC02584934100C72CB4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -165,6 +285,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7C179CAC2585765200E08533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacProject/MacProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacProject/Preview Content\"";
+				DEVELOPMENT_TEAM = G5Z45R4D8W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.danah.MacProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7C179CAD2585765200E08533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacProject/MacProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacProject/Preview Content\"";
+				DEVELOPMENT_TEAM = G5Z45R4D8W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.danah.MacProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		7CCEDEC42584934100C72CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,6 +496,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7C179CAE2585765200E08533 /* Build configuration list for PBXNativeTarget "MacProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C179CAC2585765200E08533 /* Debug */,
+				7C179CAD2585765200E08533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7CCEDEAD2584933D00C72CB4 /* Build configuration list for PBXProject "prater-swiftui-proj1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
