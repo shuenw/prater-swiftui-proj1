@@ -24,6 +24,8 @@
 		7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDECB2584960000C72CB4 /* TitleView.swift */; };
 		7CDE1B5E2586905E005CF81A /* ErrorTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B5D2586905E005CF81A /* ErrorTestView.swift */; };
 		7CDE1B842586B6EF005CF81A /* VStackExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B832586B6EF005CF81A /* VStackExamples.swift */; };
+		7CDE1B8A2586CD07005CF81A /* HStackExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B892586CD06005CF81A /* HStackExamples.swift */; };
+		7CDE1B8E2586CD2F005CF81A /* TextGroupExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B8D2586CD2F005CF81A /* TextGroupExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		7CCEDECB2584960000C72CB4 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		7CDE1B5D2586905E005CF81A /* ErrorTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTestView.swift; sourceTree = "<group>"; };
 		7CDE1B832586B6EF005CF81A /* VStackExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExamples.swift; sourceTree = "<group>"; };
+		7CDE1B892586CD06005CF81A /* HStackExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExamples.swift; sourceTree = "<group>"; };
+		7CDE1B8D2586CD2F005CF81A /* TextGroupExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGroupExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				7CDE1B832586B6EF005CF81A /* VStackExamples.swift */,
+				7CDE1B892586CD06005CF81A /* HStackExamples.swift */,
+				7CDE1B8D2586CD2F005CF81A /* TextGroupExamples.swift */,
 			);
 			path = layout;
 			sourceTree = "<group>";
@@ -272,7 +278,9 @@
 				7C179CB82585828900E08533 /* TestButton.swift in Sources */,
 				7CDE1B5E2586905E005CF81A /* ErrorTestView.swift in Sources */,
 				7CCEDEB62584933D00C72CB4 /* AppDelegate.swift in Sources */,
+				7CDE1B8E2586CD2F005CF81A /* TextGroupExamples.swift in Sources */,
 				7CDE1B842586B6EF005CF81A /* VStackExamples.swift in Sources */,
+				7CDE1B8A2586CD07005CF81A /* HStackExamples.swift in Sources */,
 				7CCEDEB82584933D00C72CB4 /* SceneDelegate.swift in Sources */,
 				7CCEDEBA2584933D00C72CB4 /* ContentView.swift in Sources */,
 				7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */,
