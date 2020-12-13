@@ -27,8 +27,6 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
                 .previewDevice("iPhone 11")
-            ContentView()
-                .previewDevice("iPhone 12 mini")
         }
     }
 }

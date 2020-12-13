@@ -22,6 +22,8 @@
 		7CCEDEBF2584934100C72CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEDEBE2584934100C72CB4 /* Preview Assets.xcassets */; };
 		7CCEDEC22584934100C72CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEDEC02584934100C72CB4 /* LaunchScreen.storyboard */; };
 		7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDECB2584960000C72CB4 /* TitleView.swift */; };
+		7CDE1B5E2586905E005CF81A /* ErrorTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B5D2586905E005CF81A /* ErrorTestView.swift */; };
+		7CDE1B842586B6EF005CF81A /* VStackExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B832586B6EF005CF81A /* VStackExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		7CCEDEC12584934100C72CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CCEDEC32584934100C72CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CCEDECB2584960000C72CB4 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		7CDE1B5D2586905E005CF81A /* ErrorTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTestView.swift; sourceTree = "<group>"; };
+		7CDE1B832586B6EF005CF81A /* VStackExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				7CCEDEB52584933D00C72CB4 /* AppDelegate.swift */,
 				7CCEDEB72584933D00C72CB4 /* SceneDelegate.swift */,
 				7CCEDEB92584933D00C72CB4 /* ContentView.swift */,
+				7CDE1B822586B6E0005CF81A /* layout */,
 				7CCEDECA258495E700C72CB4 /* components */,
 				7CCEDEBB2584934100C72CB4 /* Assets.xcassets */,
 				7CCEDEC02584934100C72CB4 /* LaunchScreen.storyboard */,
@@ -139,8 +144,17 @@
 			children = (
 				7CCEDECB2584960000C72CB4 /* TitleView.swift */,
 				7C179CB72585828900E08533 /* TestButton.swift */,
+				7CDE1B5D2586905E005CF81A /* ErrorTestView.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		7CDE1B822586B6E0005CF81A /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1B832586B6EF005CF81A /* VStackExamples.swift */,
+			);
+			path = layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C179CB82585828900E08533 /* TestButton.swift in Sources */,
+				7CDE1B5E2586905E005CF81A /* ErrorTestView.swift in Sources */,
 				7CCEDEB62584933D00C72CB4 /* AppDelegate.swift in Sources */,
+				7CDE1B842586B6EF005CF81A /* VStackExamples.swift in Sources */,
 				7CCEDEB82584933D00C72CB4 /* SceneDelegate.swift in Sources */,
 				7CCEDEBA2584933D00C72CB4 /* ContentView.swift in Sources */,
 				7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */,
