@@ -16,6 +16,8 @@
 		7C179CB82585828900E08533 /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CB72585828900E08533 /* TestButton.swift */; };
 		7C179CBB258582AD00E08533 /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CB72585828900E08533 /* TestButton.swift */; };
 		7C8BD1EA2586D87B004B8FCB /* PaddingExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BD1E92586D87B004B8FCB /* PaddingExamples.swift */; };
+		7C98303D2589C4A5004BD0FA /* BackgroundExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C98303C2589C4A4004BD0FA /* BackgroundExamples.swift */; };
+		7C9830412589C700004BD0FA /* FrameExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9830402589C700004BD0FA /* FrameExamples.swift */; };
 		7CCEDEB62584933D00C72CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDEB52584933D00C72CB4 /* AppDelegate.swift */; };
 		7CCEDEB82584933D00C72CB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDEB72584933D00C72CB4 /* SceneDelegate.swift */; };
 		7CCEDEBA2584933D00C72CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDEB92584933D00C72CB4 /* ContentView.swift */; };
@@ -41,6 +43,8 @@
 		7C179CAB2585765200E08533 /* MacProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacProject.entitlements; sourceTree = "<group>"; };
 		7C179CB72585828900E08533 /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
 		7C8BD1E92586D87B004B8FCB /* PaddingExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExamples.swift; sourceTree = "<group>"; };
+		7C98303C2589C4A4004BD0FA /* BackgroundExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundExamples.swift; sourceTree = "<group>"; };
+		7C9830402589C700004BD0FA /* FrameExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExamples.swift; sourceTree = "<group>"; };
 		7CCEDEB22584933D00C72CB4 /* prater-swiftui-proj1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prater-swiftui-proj1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCEDEB52584933D00C72CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CCEDEB72584933D00C72CB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 				7CDE1B912586D091005CF81A /* ZStackExamples.swift */,
 				7CDE1B8D2586CD2F005CF81A /* TextGroupExamples.swift */,
 				7C8BD1E92586D87B004B8FCB /* PaddingExamples.swift */,
+				7C98303C2589C4A4004BD0FA /* BackgroundExamples.swift */,
+				7C9830402589C700004BD0FA /* FrameExamples.swift */,
 			);
 			path = layout;
 			sourceTree = "<group>";
@@ -291,6 +297,8 @@
 				7CDE1B8A2586CD07005CF81A /* HStackExamples.swift in Sources */,
 				7CCEDEB82584933D00C72CB4 /* SceneDelegate.swift in Sources */,
 				7CCEDEBA2584933D00C72CB4 /* ContentView.swift in Sources */,
+				7C98303D2589C4A5004BD0FA /* BackgroundExamples.swift in Sources */,
+				7C9830412589C700004BD0FA /* FrameExamples.swift in Sources */,
 				7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
