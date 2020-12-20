@@ -19,8 +19,9 @@ struct FrameExamples: View {
             
             AvatarCircle()
                 .frame(width: 200, height: 200, alignment: .center)
-                .padding()
-                //.background(Color.blue)
+                .offset(x:0, y: -100)
+                //padding properties makes the frame hug the content instead of leaving extra space in the frame
+                .padding(.bottom, -100)
         
         }.edgesIgnoringSafeArea(.top)
             .frame(maxHeight: .infinity, alignment: .top)

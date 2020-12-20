@@ -27,7 +27,7 @@ struct ZStackExamples: View {
             ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
                 IllustrationView()
                 Text("cats are awesome")
-                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(.blue)
                     .padding()
             })
            
