@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		7C179C9F2585764D00E08533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179C9E2585764D00E08533 /* AppDelegate.swift */; };
 		7C179CA12585764D00E08533 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CA02585764D00E08533 /* ContentView.swift */; };
-		7C179CA32585765100E08533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C179CA22585765100E08533 /* Assets.xcassets */; };
 		7C179CA62585765200E08533 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C179CA52585765200E08533 /* Preview Assets.xcassets */; };
 		7C179CA92585765200E08533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C179CA72585765200E08533 /* Main.storyboard */; };
 		7C179CB12585773800E08533 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEDECB2584960000C72CB4 /* TitleView.swift */; };
 		7C179CB82585828900E08533 /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CB72585828900E08533 /* TestButton.swift */; };
 		7C179CBB258582AD00E08533 /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C179CB72585828900E08533 /* TestButton.swift */; };
 		7C66CC3B25900D03006DF3D0 /* PositionExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66CC3A25900D02006DF3D0 /* PositionExamples.swift */; };
+		7C66CC3F25900F59006DF3D0 /* Geometry Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66CC3E25900F59006DF3D0 /* Geometry Examples.swift */; };
 		7C8BD1EA2586D87B004B8FCB /* PaddingExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BD1E92586D87B004B8FCB /* PaddingExamples.swift */; };
 		7C98303D2589C4A5004BD0FA /* BackgroundExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C98303C2589C4A4004BD0FA /* BackgroundExamples.swift */; };
 		7C9830412589C700004BD0FA /* FrameExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9830402589C700004BD0FA /* FrameExamples.swift */; };
@@ -31,19 +31,21 @@
 		7CDE1B8A2586CD07005CF81A /* HStackExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B892586CD06005CF81A /* HStackExamples.swift */; };
 		7CDE1B8E2586CD2F005CF81A /* TextGroupExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B8D2586CD2F005CF81A /* TextGroupExamples.swift */; };
 		7CDE1B922586D091005CF81A /* ZStackExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1B912586D091005CF81A /* ZStackExamples.swift */; };
+		7CEE618C259554E900DF0037 /* ColorExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE618B259554E900DF0037 /* ColorExamples.swift */; };
+		7CEE6190259554F500DF0037 /* StyleGuideColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE618F259554F500DF0037 /* StyleGuideColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C179C9C2585764D00E08533 /* MacProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C179C9E2585764D00E08533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C179CA02585764D00E08533 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7C179CA22585765100E08533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C179CA52585765200E08533 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C179CA82585765200E08533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C179CAA2585765200E08533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C179CAB2585765200E08533 /* MacProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacProject.entitlements; sourceTree = "<group>"; };
 		7C179CB72585828900E08533 /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
 		7C66CC3A25900D02006DF3D0 /* PositionExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionExamples.swift; sourceTree = "<group>"; };
+		7C66CC3E25900F59006DF3D0 /* Geometry Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry Examples.swift"; sourceTree = "<group>"; };
 		7C8BD1E92586D87B004B8FCB /* PaddingExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExamples.swift; sourceTree = "<group>"; };
 		7C98303C2589C4A4004BD0FA /* BackgroundExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundExamples.swift; sourceTree = "<group>"; };
 		7C9830402589C700004BD0FA /* FrameExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExamples.swift; sourceTree = "<group>"; };
@@ -61,6 +63,8 @@
 		7CDE1B892586CD06005CF81A /* HStackExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExamples.swift; sourceTree = "<group>"; };
 		7CDE1B8D2586CD2F005CF81A /* TextGroupExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextGroupExamples.swift; sourceTree = "<group>"; };
 		7CDE1B912586D091005CF81A /* ZStackExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExamples.swift; sourceTree = "<group>"; };
+		7CEE618B259554E900DF0037 /* ColorExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExamples.swift; sourceTree = "<group>"; };
+		7CEE618F259554F500DF0037 /* StyleGuideColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +90,6 @@
 			children = (
 				7C179C9E2585764D00E08533 /* AppDelegate.swift */,
 				7C179CA02585764D00E08533 /* ContentView.swift */,
-				7C179CA22585765100E08533 /* Assets.xcassets */,
 				7C179CA72585765200E08533 /* Main.storyboard */,
 				7C179CAA2585765200E08533 /* Info.plist */,
 				7C179CAB2585765200E08533 /* MacProject.entitlements */,
@@ -135,6 +138,7 @@
 				7CCEDEB52584933D00C72CB4 /* AppDelegate.swift */,
 				7CCEDEB72584933D00C72CB4 /* SceneDelegate.swift */,
 				7CCEDEB92584933D00C72CB4 /* ContentView.swift */,
+				7CEE6184259554BD00DF0037 /* styleguide */,
 				7CDE1B822586B6E0005CF81A /* layout */,
 				7CCEDECA258495E700C72CB4 /* components */,
 				7CCEDEBB2584934100C72CB4 /* Assets.xcassets */,
@@ -173,9 +177,19 @@
 				7C8BD1E92586D87B004B8FCB /* PaddingExamples.swift */,
 				7C98303C2589C4A4004BD0FA /* BackgroundExamples.swift */,
 				7C9830402589C700004BD0FA /* FrameExamples.swift */,
+				7C66CC3E25900F59006DF3D0 /* Geometry Examples.swift */,
 				7C66CC3A25900D02006DF3D0 /* PositionExamples.swift */,
 			);
 			path = layout;
+			sourceTree = "<group>";
+		};
+		7CEE6184259554BD00DF0037 /* styleguide */ = {
+			isa = PBXGroup;
+			children = (
+				7CEE618B259554E900DF0037 /* ColorExamples.swift */,
+				7CEE618F259554F500DF0037 /* StyleGuideColors.swift */,
+			);
+			path = styleguide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,6 @@
 			files = (
 				7C179CA92585765200E08533 /* Main.storyboard in Resources */,
 				7C179CA62585765200E08533 /* Preview Assets.xcassets in Resources */,
-				7C179CA32585765100E08533 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +307,7 @@
 				7C66CC3B25900D03006DF3D0 /* PositionExamples.swift in Sources */,
 				7C179CB82585828900E08533 /* TestButton.swift in Sources */,
 				7CDE1B5E2586905E005CF81A /* ErrorTestView.swift in Sources */,
+				7CEE6190259554F500DF0037 /* StyleGuideColors.swift in Sources */,
 				7CCEDEB62584933D00C72CB4 /* AppDelegate.swift in Sources */,
 				7CDE1B8E2586CD2F005CF81A /* TextGroupExamples.swift in Sources */,
 				7CDE1B842586B6EF005CF81A /* VStackExamples.swift in Sources */,
@@ -302,6 +316,8 @@
 				7CCEDEB82584933D00C72CB4 /* SceneDelegate.swift in Sources */,
 				7CCEDEBA2584933D00C72CB4 /* ContentView.swift in Sources */,
 				7C98303D2589C4A5004BD0FA /* BackgroundExamples.swift in Sources */,
+				7CEE618C259554E900DF0037 /* ColorExamples.swift in Sources */,
+				7C66CC3F25900F59006DF3D0 /* Geometry Examples.swift in Sources */,
 				7C9830412589C700004BD0FA /* FrameExamples.swift in Sources */,
 				7CCEDECC2584960000C72CB4 /* TitleView.swift in Sources */,
 			);
